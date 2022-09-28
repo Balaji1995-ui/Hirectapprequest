@@ -1,38 +1,233 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto+Slab&display=swap');
+*{
+margin: 0%  ;
+
+}
+#g-search-button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 116px;
+  top: 396px;
+
+
+}
+.date{
+  position: absolute;
+  width: 335px;
+  height: 34px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  
+  
+  /* Dark blue_01 */
+  
+  color: #314363;
+}
+
+.date1{
+  position: absolute;
+  width: 141px;
+  height: 34px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  /* identical to box height, or 34px */
+  
+  
+  /* Dark blue_01 */
+  
+  color: #314363;
+}
+/* .picker{
+
+  padding-top: 25px;
+  position: absolute;
+  width: 89px;
+  color: #314363;
+box-shadow: #314363;
+cursor: pointer;
+letter-spacing: 0.01em;
+font-family: 'Montserrat';
+font-size: 13px;
+} */
+.dropdown{
+  width: 376px;
+  border-radius: 16px;
+  height: 54px;
+  border: 1px #DAE2EF ;
+}
+
+.Dmenu{
+  width: 376px;
+  margin: 0;
+  background-color:#F0F5FB ;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 250px;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: #142A51;
+}
+::-webkit-scrollbar-thumb {
+  background:#EBF0F6
+}
+
+
+.avatar{
+  /* position: absolute;
+left: 25.5%;
+right: 73.57%;
+top: 3.68%;
+bottom: 25.07%;
+height: 1px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 140%; */
+position: absolute;
+left: 25.5%;
+right: 73.57%;
+top: 3.68%;
+bottom: 25.07%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 120%;
+/* or 18px */
+
+text-align: center;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #FFFFFF;
+
+}
+
+.head{
   text-align: center;
+  font-size: medium;
+  padding: 25px;
+}
+#menu{
+  font-family: 'Montserrat';
+  font-size: 12px;
+  background: #142A51;
+
+ 
+}
+.form{
+  position: absolute;
+  width: 376px;
+ 
+  height: 54px;
+  background:#EBF0F6;
+  border: 1px solid #EBF0F6;
+  box-sizing: border-box;
+
+}
+.form2{
+  font-family: 'Monstserrat';
+  font-weight: 500;
+  text-align: center;
+  background:#EBF0F6;
+}
+#demo-multiple-checkbox-label{
+  width: 107px;
+height: 18px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 140%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #314363;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.item{
+  width: 112px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+ line-height: 140%;
+/* or 18px */
+scroll-snap-type: mandatory;
+
+letter-spacing: 0.01em; 
+color: #556E9A;
+flex: none;
+order: 1;
+flex-grow: 5;
+}
+#demo-multiple-checkbox{
+  width: 327px;
+  height: 18px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #314363;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.label{
+  color:"#7E98BA";
+}
+.label1{
+ color:'#EBF0F6';
+}
+.search{
+  background: #142A51;
+  color: #DAE2EF;
+
+  padding-left:50px ;
+  font-family: 'Montserrat';
+  box-shadow: 0px 25px 70px rgba(53, 69, 98, 0.15), 0px 20px 50px rgba(53, 69, 98, 0.15);
+  backdrop-filter: blur(72px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.search1{
+  background: #142A51;
+  color: #DAE2EF;
+  border-radius: 0%;
+  width: 390px;
+text-align: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.col-drop{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+
+position: absolute;
+width: 376px;
+height: 54px;
+margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check{
+  float: right;
 }
